@@ -37,5 +37,3 @@ echo "STEP 9 of 10: Installed Python Requirements"
 echo "STEP 10 of 10: Starting Miner & GPU"
 sudo nohup python3 miner.py --gpu=true > miner.log 2>&1 &
 sudo nohup ./xengpuminer > xengpuminer.log 2>&1 &
-
-tail -f /root/XENGPUMiner/miner.log
